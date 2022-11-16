@@ -7,6 +7,18 @@
 // console.log(document.querySelector("#green"));
 
 
+
+
+
+// Задача1. При нажатии на картинку, цвета фона не отрабатывают. Починить!
+// Задача2. Создать кнопку <button class="item" id="random">Random</button><button class="item" id="random">Random</button> и
+// при нажатии на кнопку Random нужно менять цвет фона body на какой-то из цветов массива
+// let colors = ["OrangeRed", "SteelBlue", "MistyRose", "Brown", "SeaGreen"]
+
+
+// Задача1
+
+
 let buttonRed = document.querySelector("#red")
 
 buttonRed.addEventListener("click",  () => {
@@ -27,6 +39,8 @@ document.querySelector("#img").addEventListener("click",  () => {
     document.body.style.backgroundImage = "url(./8.jpg)"
 })
 
+
+// Задача2
 
 
 let colors = ["OrangeRed", "SteelBlue", "MistyRose", "Brown", "SeaGreen"];
@@ -63,7 +77,3 @@ document.querySelector("#random").addEventListener("click",  () => {
 // })
 
 
-// Задача1. При нажатии на картинку, цвета фона не отрабатывают. Починить!
-// Задача2. Создать кнопку <button class="item" id="random">Random</button><button class="item" id="random">Random</button> и
-// при нажатии на кнопку Random нужно менять цвет фона body на какой-то из цветов массива
-// let colors = ["OrangeRed", "SteelBlue", "MistyRose", "Brown", "SeaGreen"]
